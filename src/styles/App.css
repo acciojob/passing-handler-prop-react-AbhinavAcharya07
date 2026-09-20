@@ -46,6 +46,18 @@ button {
     background: rgb(221, 112, 18);
     color: black;
 }
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#children-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn-green {
     background: rgb(44, 209, 88);
